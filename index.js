@@ -2,7 +2,7 @@ const Bot = require('node-telegram-bot-api');
 const request = require('request');
 
 const token = require('./token');
-const url = 'https://launchlibrary.net/1.3/launch';
+const url = 'https://api.talklift.com/messages/';
 const trigger = 'Buy Insuarance';
 
 const bot = new Bot(token, {polling: true});
